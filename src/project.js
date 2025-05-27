@@ -2038,7 +2038,7 @@ window.__require = function e(t, n, o) {
                     this.ajaxLoad("https://www.wesane.com/admin.php/Gamescore/saveGamescore", "gameScore=" + e + "&gameId=" + this.gameHttpId + "&gameType=" + t, this.scoreResult)
                 },
                 gamePV_load: function() {
-                    this.ajaxLoad("https://www.wesane.com/admin.php/Activityshow/gamelogo", "gameID=" + this.gameHttpId, this.ajaxOnLogoResult)
+                    this.ajaxLoad("https://ts4.tc.mm.bing.net/th/id/ODL.dea5dc4e1488b34ff3586b8895f73700?w=312&h=200&c=12&rs=1&o=6&dpr=1.5&pid=AlgoBlockDebug", "gameID=" + this.gameHttpId, this.ajaxOnLogoResult)
                 },
                 ajaxOnLogoResult: function() {},
                 ajaxLoad: function(e, t, n) {
